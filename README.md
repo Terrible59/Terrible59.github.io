@@ -1,2 +1,2 @@
-# Terrible59.github.io
+# Паша Кубалов
 MyFirstSite
