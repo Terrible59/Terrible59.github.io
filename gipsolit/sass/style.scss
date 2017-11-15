@@ -1,5 +1,9 @@
 html{
-	font-size: 10px;
+	font-size:10px;
+}
+
+body{
+	overflow-x: hidden;
 }
 
 .header{
@@ -188,4 +192,78 @@ small{
 		font-size: 1.2rem;/* Приближение из-за подстановки шрифтов */
 		font-family: 'Proxima Nova Rg';
 	}
+}
+
+.features{
+	&-heading{
+		font-family: 'Proxima Nova Rg';
+		color:  #1a1820;
+		font-size: 3.4rem;/* Приближение из-за подстановки шрифтов */
+		font-weight: bold;
+		text-align: center;
+		margin-top: 10rem;
+		margin-bottom: 15rem;
+	}
+	&-p{
+		font-family: 'Proxima Nova Lt';
+		color:  #1a1820;
+		font-size: 1.6rem;/* Приближение из-за подстановки шрифтов */
+		font-weight: 300;
+		line-height: 1.25;/* Приближение из-за подстановки шрифтов */
+		text-align: center;
+	}
+	&-h3{
+		font-family:'Proxima Nova Rg';
+		font-weight: bold;
+		color:  #1a1820;
+		font-size: 2rem;/* Приближение из-за подстановки шрифтов */
+		text-align: center;
+		margin-bottom: 10px;
+	}
+	&-img{
+		height: 6rem;
+		margin-bottom: 40px;
+		img{
+			display: block;
+			margin: 0 auto;
+		}
+	}
+	&-p{
+		width: 87%;
+		margin: 0 auto;
+	}
+	&-block{
+		padding-bottom: 60px;
+	}
+	
+}
+
+.slick-active{
+	outline:none;
+}
+
+.prev{
+	position: absolute;
+	top: 50%;
+	left:0;
+	transform: translateY(-130%);
+	z-index: 99;
+	width: 2rem;
+	height: 2rem;
+	border:none;
+	background: url(../img/features/left-arrow.svg) center no-repeat;
+	background-size: 70%;
+}
+
+.next{
+	position: absolute;
+	top: 50%;
+	right:0;
+	transform: translateY(-130%);
+	z-index: 99;
+	width: 2rem;
+	height: 2rem;
+	border:none;
+	background: url(../img/features/right-arrow.svg) center no-repeat;
+	background-size: 70%;
 }

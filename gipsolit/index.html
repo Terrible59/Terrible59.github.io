@@ -7,8 +7,9 @@
 	<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
 	<title>Project name</title>
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/css/bootstrap.min.css" integrity="sha384-/Y6pD6FV/Vv2HJnA6t+vslU6fwYXjCFtcEpHbNJ0lyAFsXTsjBbfaDjzALeQsN6M" crossorigin="anonymous">
-
     <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400" rel="stylesheet">
+    <link rel="stylesheet" href="css/slick.css">
+    <link rel="stylesheet" href="css/slick-theme.css">
     <link rel="stylesheet" href="css/animate.css">
     <link rel="stylesheet" href="css/style.css">
 </head>
@@ -64,13 +65,93 @@
 	</div>
 </section>
 
+<section class="features-sec">
+	<div class="container">
+		<h2 class="features-heading">Преимущества работы с нами</h2>
+		<div class="features-slider">
+			<div class="features-block">
+				<div class="features-img">
+					<picture>
+						<source srcset="img/features/coin.svg" type="image/">
+						<img src="img/features/coin.png" alt="feature">
+					</picture>
+				</div>
+				<h3 class="features-h3">Платите по факту</h3>
+				<p class="features-p">Вы оплачиваете выполненные работы только после их выполнения. Никаких скрытых доплат и промежуточных платежей.</p>
+			</div>
+			<div class="features-block">
+				<div class="features-img">
+					<picture>
+						<source srcset="img/features/folder.svg" type="image/">
+						<img src="img/features/folder.png" alt="feature">
+					</picture>
+				</div>
+				<h3 class="features-h3">Заключаем договор</h3>
+				<p class="features-p">Перед началом работ заключаем договор на юридическое лицо. Вы можете быть уверены, что все обязательства будут выполнены.</p>
+			</div>
+			<div class="features-block">
+				<div class="features-img">
+					<picture>
+						<source srcset="img/features/clock.svg" type="image/">
+						<img src="img/features/clock.png" alt="feature">
+					</picture>
+				</div>
+				<h3 class="features-h3">Точно в срок</h3>
+				<p class="features-p">Работаем строго по установленным срокам, которые прописаны в договоре. Если не успеваем, Вы платите меньше</p>
+			</div>
+			<div class="features-block">
+				<div class="features-img">
+					<picture>
+						<source srcset="img/features/coin-pig.svg" type="image/">
+						<img src="img/features/coin-pig.png" alt="feature">
+					</picture>
+				</div>
+				<h3 class="features-h3">Экономите на материалах</h3>
+				<p class="features-p">Мы являемся структурным подразделением компании поставщика строительных смесей gicema.ru  и даём Вам самые 
+				выгодные цены.</p>
+			</div>
+		</div>
+	</div>
+</section>
+
 
 <!----- Scripts ------>
 <script type="text/javascript" src="js/jquery-3.2.1.min.js"></script>
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/js/bootstrap.min.js" integrity="sha384-h0AbiXch4ZDo7tp9hKZ4TsHbi047NrKGLO3SEJAg45jXxnGIfYzk4Si90RDIqNm1" crossorigin="anonymous"></script>
+<script src="js/slick.js"></script>
 <script type="text/javascript" src="js/wow.js"></script>
 <script>
     new WOW().init();
+</script>
+<script>
+	$(document).ready(function(){
+  	$('.features-slider').slick({
+  infinite: true,
+  slidesToShow: 4,
+  slidesToScroll: 1,
+  responsive: [
+    {
+    
+      breakpoint: 991,
+      settings: {
+        slidesToShow: 2,
+        prevArrow: '<button class="prev"></button>',
+        nextArrow: '<button class="next"></button>',
+        slidesToScroll: 2
+      }
+    },
+    {
+      breakpoint: 767,
+      settings: {
+        slidesToShow: 1,
+        prevArrow: '<button class="prev"></button>',
+        nextArrow: '<button class="next"></button>',
+        slidesToScroll: 1
+      }
+    }
+  ]
+  	});
+	});
 </script>
 </body>
 </html>

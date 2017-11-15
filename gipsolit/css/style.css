@@ -526,6 +526,9 @@ ul {
 html {
   font-size: 10px; }
 
+body {
+  overflow-x: hidden; }
+
 .header {
   background: url("../img/bg.jpg") top center no-repeat;
   background-size: cover;
@@ -721,6 +724,80 @@ small {
     /* Приближение из-за подстановки шрифтов */
     font-family: 'Proxima Nova Rg'; }
 
+.features-heading {
+  font-family: 'Proxima Nova Rg';
+  color: #1a1820;
+  font-size: 3.4rem;
+  /* Приближение из-за подстановки шрифтов */
+  font-weight: bold;
+  text-align: center;
+  margin-top: 10rem;
+  margin-bottom: 15rem; }
+
+.features-p {
+  font-family: 'Proxima Nova Lt';
+  color: #1a1820;
+  font-size: 1.6rem;
+  /* Приближение из-за подстановки шрифтов */
+  font-weight: 300;
+  line-height: 1.25;
+  /* Приближение из-за подстановки шрифтов */
+  text-align: center; }
+
+.features-h3 {
+  font-family: 'Proxima Nova Rg';
+  font-weight: bold;
+  color: #1a1820;
+  font-size: 2rem;
+  /* Приближение из-за подстановки шрифтов */
+  text-align: center;
+  margin-bottom: 10px; }
+
+.features-img {
+  height: 6rem;
+  margin-bottom: 40px; }
+  .features-img img {
+    display: block;
+    margin: 0 auto; }
+
+.features-p {
+  width: 87%;
+  margin: 0 auto; }
+
+.features-block {
+  padding-bottom: 60px; }
+
+.slick-active {
+  outline: none; }
+
+.prev {
+  position: absolute;
+  top: 50%;
+  left: 0;
+  -webkit-transform: translateY(-130%);
+  -ms-transform: translateY(-130%);
+  transform: translateY(-130%);
+  z-index: 99;
+  width: 2rem;
+  height: 2rem;
+  border: none;
+  background: url(../img/features/left-arrow.svg) center no-repeat;
+  background-size: 70%; }
+
+.next {
+  position: absolute;
+  top: 50%;
+  right: 0;
+  -webkit-transform: translateY(-130%);
+  -ms-transform: translateY(-130%);
+  transform: translateY(-130%);
+  z-index: 99;
+  width: 2rem;
+  height: 2rem;
+  border: none;
+  background: url(../img/features/right-arrow.svg) center no-repeat;
+  background-size: 70%; }
+
 @media (max-width: 991px) {
   .header-headings, div .header-h1, div .header-p {
     text-align: center; }
@@ -752,7 +829,9 @@ small {
     justify-content: center;
     margin-right: 0 50px; }
   .header {
-    min-height: 220vh; } }
+    min-height: 190vh; }
+  html {
+    font-size: 9px; } }
 
 @media (min-width: 992px) and (max-width: 1199px) {
   .header-h1 {
