@@ -30,7 +30,7 @@
 			<div class="col-lg-3 col-sm-12">
 				<div class="wrap">
 					<div class="wrap-block">
-						<button class="btn main-btn">Получить консультацию</button>
+						<button class="btn main-btn popup-open">Получить консультацию</button>
 					</div>
 				</div>
 			</div>
@@ -114,17 +114,45 @@
 	</div>
 </section>
 
+<!-- Модальные окна -->
+
+
+<div class="popup">
+	<div class="popup-content">
+		<div class="form">
+			<button class="popup-close">&times;</button>
+			<h2 class="popup-h2">Заинтересовало?</h2>
+			<p class="popup-p">Оставьте контактные данные для связи</p>
+			<div class="popup-form">
+				<form action="#" >
+							<label for="#" class="main-form-label">Ваше имя</label>
+							<input type="text" class="main-form-input">
+							<label for="#" class="main-form-sec-label">Номер телефона</label>
+							<input type="text" class="main-form-input">
+							<label for="#" class="main-form-sec-label">Сообщение</label>
+							<textarea class="main-form-input popup-textarea"></textarea>
+							<button class="main-form-button btn">Оставьте заявку</button>
+							<small class="main-form-small popup-small">Приедем в день обращения*</small>
+				</form>
+			</div>
+		</div>
+	</div>
+</div>
+
+
 
 <!----- Scripts ------>
 <script type="text/javascript" src="js/jquery-3.2.1.min.js"></script>
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/js/bootstrap.min.js" integrity="sha384-h0AbiXch4ZDo7tp9hKZ4TsHbi047NrKGLO3SEJAg45jXxnGIfYzk4Si90RDIqNm1" crossorigin="anonymous"></script>
 <script src="js/slick.js"></script>
+<script src="js/script.js"></script>
 <script type="text/javascript" src="js/wow.js"></script>
 <script>
     new WOW().init();
 </script>
 <script>
 	$(document).ready(function(){
+
   	$('.features-slider').slick({
   infinite: true,
   slidesToShow: 4,
