@@ -27,7 +27,15 @@
 	html{
 		font-size: 9px;
 	}
-
+	.price-block{
+		margin-top: 5rem;
+	}
+	.fotorama{
+		margin-bottom: 3rem;
+	}
+	.feedback-desc{
+		font-size: 1rem;
+	}
  }
 
 
@@ -35,10 +43,83 @@
 	.header-h1{
 		font-size: 3rem;
 	}
-	.header{
-		min-height: 120vh;
+}
+
+
+@media (max-width: 583px) { 
+	.feedback-next{
+		background-size: 40%;
+		transform: translateY(-50%) translateX(35%);
+	}
+	.feedback-prev{
+		background-size: 40%;
+		transform: translateY(-50%) translateX(-35%);
+	}
+	.feedback-customer-feedback-p{
+		font-size: 1rem;
+	}
+	.feedback-customer-feedback{
+		padding: 1.5rem 1.5rem;
+	}
+	.feedback-customer-img{
+		width: 5rem;
+		height: 5rem;
+	}
+	.feedback-customer-name-h5{
+		font-size: 1rem;
+
+	}
+	.feedback-customer-name-strong{
+		font-size: 1.2rem;
+	}
+	.feedback-customer-name{
+		margin-left: 1rem;
+	}
+	.feedback-form-input{
+
 	}
 }
+
+
+@media (max-width: 1199px) {
+	.feedback-form-input{
+		padding: 1.5rem;
+		display: block;
+		width: 100%;
+		border-radius: 3px;
+		border-width: 1px;
+		border-color:  #dddddd;
+		border-style: solid;
+		margin-top: 2rem;
+		outline:none;
+		font-family: "Proxima Nova Rg";
+		font-weight: bold;
+		margin-right: 0;
+		margin-left: 0;
+	}
+	.feedback-form-label{
+		position: absolute;
+		background-color: #fff;
+		padding: 0.5rem;
+		left:50%;
+		transform:translateX(-50%) translateY(-50%);
+		color:  #565656;
+		font-size: 1.3rem;
+		font-family: 'Proxima Nova Rg';
+	}
+	.feedback-form-sec-label{
+		position: absolute;
+		background-color: #fff;
+		padding: 0.5rem;
+		left:50%;
+		transform:translateX(-50%) translateY(25%);
+		color:  #565656;
+		font-size: 1.3rem;
+		font-family: 'Proxima Nova Rg';
+	}
+}
+
+
 
 /*
 // Medium devices (tablets, 768px and up)
