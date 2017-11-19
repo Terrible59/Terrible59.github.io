@@ -1506,6 +1506,15 @@ small {
   }
 }
 
+@media (max-width: 455px) {
+  .feedback-form-button {
+    width: 15rem;
+  }
+  .feedback-form-heading {
+    font-size: 1.5rem;
+  }
+}
+
 /*
 // Medium devices (tablets, 768px and up)
 @media (min-width: 768px) { ... }
