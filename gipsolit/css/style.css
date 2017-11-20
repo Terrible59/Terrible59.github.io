@@ -1374,6 +1374,66 @@ small {
   font-weight: bold;
 }
 
+.scheme {
+  padding: 6rem 0;
+}
+
+.scheme-wrap {
+  margin-top: 6rem;
+}
+
+.scheme-heading {
+  color: #1a1820;
+  font-size: 3.6rem;
+  /* Приближение из-за подстановки шрифтов */
+  font-weight: bold;
+  font-family: 'Proxima Nova Rg';
+  text-align: center;
+  margin-top: 6rem;
+}
+
+.scheme-h3 {
+  color: #1a1820;
+  font-size: 1.6rem;
+  /* Приближение из-за подстановки шрифтов */
+  font-family: 'Proxima Nova Rg';
+  line-height: 1.125;
+  /* Приближение из-за подстановки шрифтов */
+  text-align: center;
+  margin-top: 4rem;
+}
+
+.scheme-img {
+  width: 120px;
+  height: 95px;
+}
+
+.scheme-img-heading {
+  color: #1a1820;
+  font-size: 2.2rem;
+  /* Приближение из-за подстановки шрифтов */
+  font-weight: bold;
+  line-height: 0.818;
+  /* Приближение из-за подстановки шрифтов */
+  text-align: left;
+  margin-top: 3rem;
+  margin-bottom: 3rem;
+}
+
+.scheme-img-p {
+  color: #1a1820;
+  font-size: 1.5rem;
+  /* Приближение из-за подстановки шрифтов */
+  line-height: 1.059;
+  /* Приближение из-за подстановки шрифтов */
+  text-align: left;
+  width: 25rem;
+}
+
+.scheme-img-block {
+  margin-top: 7rem;
+}
+
 @media (max-width: 991px) {
   .header-headings, div .header-h1, div .header-p {
     text-align: center;
@@ -1421,6 +1481,23 @@ small {
   }
   .feedback-desc {
     font-size: 1rem;
+  }
+  .scheme-img-p {
+    text-align: center;
+    margin: 0 auto;
+  }
+  .scheme-img-heading {
+    text-align: center;
+  }
+  .scheme-img {
+    margin: 0 auto;
+    text-align: center;
+    display: block;
+  }
+  .scheme-row {
+    -webkit-justify-content: space-around;
+    -ms-flex-pack: distribute;
+    justify-content: space-around;
   }
 }
 
@@ -1509,9 +1586,16 @@ small {
 @media (max-width: 455px) {
   .feedback-form-button {
     width: 15rem;
+    height: 3rem;
   }
   .feedback-form-heading {
     font-size: 1.5rem;
+  }
+}
+
+@media (max-width: 370px) {
+  .feedback-form-button {
+    width: 12rem;
   }
 }
 

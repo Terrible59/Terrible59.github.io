@@ -36,6 +36,22 @@
 	.feedback-desc{
 		font-size: 1rem;
 	}
+
+	.scheme-img-p{
+		text-align: center;
+		margin: 0 auto;
+	}
+	.scheme-img-heading{
+		text-align: center;
+	}
+	.scheme-img{
+		margin: 0 auto;
+		text-align: center;
+		display: block;
+	}
+	.scheme-row{
+		justify-content: space-around;
+	}
  }
 
 
@@ -122,12 +138,18 @@
 @media (max-width: 455px){
 	.feedback-form-button{
 		width: 15rem;
+		height: 3rem;
 	}
 	.feedback-form-heading{
 		font-size: 1.5rem;
 	}
 }
 
+@media (max-width: 370px){
+	.feedback-form-button{
+		width: 12rem;
+	}
+}
 
 
 /*
