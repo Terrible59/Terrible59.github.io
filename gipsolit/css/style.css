@@ -673,6 +673,10 @@ body {
   margin-top: 7rem;
 }
 
+.media {
+  min-height: 15rem;
+}
+
 .header-h1 {
   color: #292929;
   font-size: 3.3rem;
@@ -1513,8 +1517,127 @@ small {
   margin-left: 1.5rem;
 }
 
-.media {
-  min-height: 15rem;
+.problems {
+  padding: 6rem 0;
+  background-color: #fff;
+  position: relative;
+}
+
+.problems-heading {
+  text-align: center;
+  margin-top: 3rem;
+  margin-bottom: 8rem;
+  font-size: 3.6rem;
+  /* Приближение из-за подстановки шрифтов */
+  font-weight: bold;
+  font-family: 'Proxima Nova Rg';
+  text-align: center;
+}
+
+.problems-problems {
+  border: 4.1px solid #e8e8e8;
+  padding: 4rem;
+  padding-bottom: 0;
+}
+
+.problems-problems-heading {
+  color: rgba(0, 0, 0, 0.35);
+  font-size: 2.1rem;
+  /* Приближение из-за подстановки шрифтов */
+  font-weight: bold;
+}
+
+.problems-problems-list {
+  padding: 4rem 0;
+}
+
+.problems-problems-item {
+  font-size: 1.4rem;
+  /* Приближение из-за подстановки шрифтов */
+  font-weight: 400;
+  text-align: left;
+  list-style: none;
+  margin-bottom: 1.5rem;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+.problems-problems-item::before {
+  content: '';
+  width: 3rem;
+  height: 3rem;
+  display: inline-block;
+  vertical-align: middle;
+  background: url(../img/problems/not-checked.png) center center no-repeat;
+  background-size: 60%;
+  float: left;
+  margin-right: 1.5rem;
+}
+
+.problems-solutions {
+  border: 4.1px solid #358015;
+  padding: 4rem;
+  padding-bottom: 0;
+}
+
+.problems-solutions-heading {
+  color: #000;
+  font-size: 2.1rem;
+  /* Приближение из-за подстановки шрифтов */
+  font-weight: bold;
+}
+
+.problems-solutions-list {
+  padding: 4rem 0;
+}
+
+.problems-solutions-item {
+  font-size: 1.4rem;
+  /* Приближение из-за подстановки шрифтов */
+  font-weight: 400;
+  text-align: left;
+  list-style: none;
+  margin-bottom: 2rem;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+.problems-solutions-item p {
+  max-width: 30rem;
+}
+
+.problems-solutions-item::before {
+  content: '';
+  width: 30px;
+  height: 30px;
+  display: inline-block;
+  vertical-align: middle;
+  background: url(../img/problems/checked.png) center center no-repeat;
+  background-size: 60%;
+  float: left;
+  margin-right: 2rem;
+}
+
+.problems-women {
+  position: absolute;
+  left: 50%;
+  bottom: 0;
+  -webkit-transform: translateX(-62%);
+  -ms-transform: translateX(-62%);
+  transform: translateX(-62%);
+  width: 31rem;
 }
 
 @media (max-width: 991px) {
@@ -1585,11 +1708,28 @@ small {
   .all-in-media-circle-border {
     padding: 0.38rem;
   }
+  .problems-problems {
+    margin-bottom: 4rem;
+  }
+  .problems-women {
+    display: none;
+  }
 }
 
 @media (min-width: 992px) and (max-width: 1199px) {
   .header-h1 {
     font-size: 3rem;
+  }
+  .problems-solutions-item p {
+    font-size: 1.2rem;
+    max-width: 20rem;
+  }
+  .problems-problems-item::before {
+    background-size: 50%;
+  }
+  .problems-problems-item p {
+    max-width: 20rem;
+    font-size: 1.2rem;
   }
 }
 

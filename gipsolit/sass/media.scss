@@ -56,12 +56,41 @@
 		padding: 0.38rem;
 
 	}
+	.problems{
+		&-problems{
+			margin-bottom: 4rem;
+		}
+		&-women{
+			display: none;
+		}
+	}
  }
 
 
 @media (min-width: 992px) and (max-width: 1199px) { 
 	.header-h1{
 		font-size: 3rem;
+	}
+	.problems{
+		&-solutions{
+			&-item{
+				p{
+					font-size: 1.2rem;
+					max-width:20rem;
+				}
+			}
+		}
+		&-problems{
+			&-item{
+				&::before{
+					background-size: 50%;
+				}
+				p{
+					max-width:20rem;
+					font-size: 1.2rem;
+				}
+			}
+		}
 	}
 }
 

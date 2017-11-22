@@ -62,6 +62,9 @@ body{
 	margin-top: 7rem;
 }
 
+.media{
+	min-height: 15rem;
+}
 
 .header{
 	&-h1{
@@ -712,6 +715,97 @@ small{
 	}
 }
 
-.media{
-	min-height: 15rem;
+.problems{
+	padding: 6rem 0;
+	background-color: #fff;
+	position: relative;
+	&-heading{
+		text-align: center;
+		margin-top: 3rem;
+		margin-bottom: 8rem;
+		font-size: 3.6rem;/* Приближение из-за подстановки шрифтов */
+		font-weight: bold;
+		font-family: 'Proxima Nova Rg';
+		text-align: center;
+	}
+
+	&-problems{
+		border:4.1px solid #e8e8e8;
+		padding: 4rem;
+		padding-bottom: 0;
+		&-heading{
+			color: rgba(0, 0, 0, 0.35);
+			font-size: 2.1rem;/* Приближение из-за подстановки шрифтов */
+			font-weight: bold;
+
+		}
+		&-list{
+			padding: 4rem 0;
+
+		}
+		&-item{
+			font-size: 1.4rem;/* Приближение из-за подстановки шрифтов */
+			font-weight: 400;
+			text-align: left;
+			list-style:none;
+			margin-bottom: 1.5rem;
+			display: flex;
+			align-items: center;
+			&::before{
+				content:'';
+				width: 3rem;
+				height: 3rem;
+				display: inline-block;
+				vertical-align: middle;
+				background: url(../img/problems/not-checked.png) center center no-repeat;
+				background-size: 60%;
+				float:left;
+				margin-right: 1.5rem;
+			}
+		}
+	}
+
+	&-solutions{
+		border:4.1px solid #358015;
+		padding: 4rem;
+		padding-bottom: 0;
+		&-heading{
+			color: #000;
+			font-size: 2.1rem;/* Приближение из-за подстановки шрифтов */
+			font-weight: bold;
+		}
+		&-list{
+			padding: 4rem 0;
+		}
+		&-item{
+			font-size: 1.4rem;/* Приближение из-за подстановки шрифтов */
+			font-weight: 400;
+			text-align: left;
+			list-style:none;
+			margin-bottom: 2rem;
+			display: flex;
+			align-items: center;
+			p{
+				max-width: 30rem;
+			}
+			&::before{
+				content:'';
+				width: 30px;
+				height: 30px;
+				display: inline-block;
+				vertical-align: middle;
+				background: url(../img/problems/checked.png) center center no-repeat;
+				background-size: 60%;
+				float:left;
+				margin-right: 2rem;
+			}
+		}
+	}
+	&-women{
+		position: absolute;
+		left:50%;
+		bottom: 0;
+		transform:translateX(-62%);
+		width: 31rem;
+	}
 }
