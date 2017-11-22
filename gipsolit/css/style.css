@@ -1580,6 +1580,10 @@ small {
   margin-right: 1.5rem;
 }
 
+.problems-problems-item p {
+  max-width: 75%;
+}
+
 .problems-solutions {
   border: 4.1px solid #358015;
   padding: 4rem;
@@ -1615,7 +1619,7 @@ small {
 }
 
 .problems-solutions-item p {
-  max-width: 30rem;
+  max-width: 75%;
 }
 
 .problems-solutions-item::before {
@@ -1822,6 +1826,20 @@ small {
 @media (max-width: 370px) {
   .feedback-form-button {
     width: 12rem;
+  }
+}
+
+@media (max-width: 437px) {
+  -solutions-item p {
+    font-size: 1.1rem;
+    max-width: 150px;
+  }
+  -problems-item::before {
+    background-size: 50%;
+  }
+  -problems-item p {
+    max-width: 15rem;
+    font-size: 1.1rem;
   }
 }
 
