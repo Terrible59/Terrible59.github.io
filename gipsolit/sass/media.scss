@@ -184,6 +184,28 @@
 	}
 }
 
+@media (max-width: 437px){
+	&-solutions{
+			&-item{
+				p{
+					font-size: 1.1rem;
+					max-width:150px;
+				}
+			}
+		}
+		&-problems{
+			&-item{
+				&::before{
+					background-size: 50%;
+				}
+				p{
+					max-width:15rem;
+					font-size: 1.1rem;
+				}
+			}
+		}
+}
+
 
 /*
 // Medium devices (tablets, 768px and up)

@@ -872,6 +872,7 @@ small {
 
 .features-block {
   padding-bottom: 60px;
+  text-align: center;
 }
 
 .slick-active {
@@ -1642,6 +1643,91 @@ small {
   -ms-transform: translateX(-62%);
   transform: translateX(-62%);
   width: 31rem;
+}
+
+.materials {
+  background: url(../img/feedback/feedback-bg.png) center repeat;
+  padding: 6rem 0;
+}
+
+.materials-heading {
+  text-align: center;
+  color: #000000;
+  font-size: 3.2rem;
+  /* Приближение из-за подстановки шрифтов */
+  font-weight: bold;
+  margin-bottom: 4rem;
+  margin-top: 6rem;
+}
+
+.materials-heading-p {
+  text-align: center;
+  font-size: 1.6rem;
+  margin-bottom: 6.5rem;
+}
+
+.materials-h3 {
+  text-align: center;
+  color: #000000;
+  font-size: 2rem;
+  /* Приближение из-за подстановки шрифтов */
+  font-weight: bold;
+  margin-top: 2rem;
+}
+
+.materials-img {
+  display: block;
+  margin: 0 auto;
+}
+
+.materials-p {
+  font-size: 1.5rem;
+  /* Приближение из-за подстановки шрифтов */
+  font-weight: 400;
+  text-align: center;
+  margin-top: 2.5rem;
+  margin-bottom: 2rem;
+}
+
+.materials-link {
+  text-align: center;
+  margin-top: 1.5rem;
+  border-bottom: 1px dotted #6ba253;
+  color: #6ba253;
+  font-size: 1.2rem;
+  /* Приближение из-за подстановки шрифтов */
+  font-weight: 400;
+  text-decoration: none;
+  -webkit-transition: all 1s;
+  -o-transition: all 1s;
+  transition: all 1s;
+}
+
+.materials-link:hover {
+  color: #3e5f30;
+  text-decoration: none;
+  border-bottom: transparent;
+}
+
+.materials-paragraph {
+  font-size: 1.6rem;
+  text-align: center;
+  margin-top: 4rem;
+}
+
+.materials-paragraph a {
+  border-bottom: 1px dotted #6ba253;
+  color: #6ba253;
+  text-decoration: none;
+  -webkit-transition: all 1s;
+  -o-transition: all 1s;
+  transition: all 1s;
+}
+
+.materials-paragraph a:hover {
+  color: #3e5f30;
+  text-decoration: none;
+  border-bottom: transparent;
 }
 
 @media (max-width: 991px) {

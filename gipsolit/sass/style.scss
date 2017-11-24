@@ -226,6 +226,7 @@ small{
 	}
 	&-block{
 		padding-bottom: 60px;
+		text-align: center;
 	}
 	
 }
@@ -762,6 +763,9 @@ small{
 				float:left;
 				margin-right: 1.5rem;
 			}
+			p{
+				max-width: 75%;
+			}
 		}
 	}
 
@@ -786,7 +790,7 @@ small{
 			display: flex;
 			align-items: center;
 			p{
-				max-width: 30rem;
+				max-width: 75%;
 			}
 			&::before{
 				content:'';
@@ -807,5 +811,73 @@ small{
 		bottom: 0;
 		transform:translateX(-62%);
 		width: 31rem;
+	}
+
+}
+
+.materials{
+	background: url(../img/feedback/feedback-bg.png) center repeat;
+	padding: 6rem 0;
+	&-heading{
+		text-align: center;
+		color:  #000000;
+		font-size: 3.2rem;/* Приближение из-за подстановки шрифтов */
+		font-weight: bold;
+		margin-bottom: 4rem;
+		margin-top: 6rem;
+	}
+	&-heading-p{
+		text-align: center;
+		font-size: 1.6rem;
+		margin-bottom: 6.5rem;
+	}
+	&-h3{
+		text-align: center;
+		color:  #000000;
+		font-size: 2rem;/* Приближение из-за подстановки шрифтов */
+		font-weight: bold;
+		margin-top: 2rem;
+	}
+	&-img{
+		display: block;
+		margin: 0 auto;
+	}
+	&-p{
+		font-size: 1.5rem;/* Приближение из-за подстановки шрифтов */
+		font-weight: 400;
+		text-align: center;
+		margin-top: 2.5rem;
+		margin-bottom: 2rem;
+	}
+	&-link{
+		text-align: center;
+		margin-top: 1.5rem;
+		border-bottom: 1px dotted #6ba253;
+		color:  #6ba253;
+		font-size: 1.2rem;/* Приближение из-за подстановки шрифтов */
+		font-weight: 400;
+		text-decoration: none;
+		transition: all 1s;
+		&:hover{
+			color:darken(#6ba253,20%);
+			text-decoration: none;
+			border-bottom:transparent;
+		}
+	}
+	&-paragraph{
+		a{
+			border-bottom: 1px dotted #6ba253;
+			color:  #6ba253;
+			text-decoration: none;
+			transition: all 1s;	
+			&:hover{
+				color:darken(#6ba253,20%);
+				text-decoration: none;
+				border-bottom:transparent;
+			}
+		}
+		font-size: 1.6rem;
+		text-align: center;
+		margin-top: 4rem;
 	}
 }
