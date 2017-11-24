@@ -616,6 +616,7 @@ body {
   -webkit-justify-content: center;
   -ms-flex-pack: center;
   justify-content: center;
+  position: relative;
 }
 
 .main-btn {
@@ -1731,6 +1732,20 @@ small {
 }
 
 @media (max-width: 991px) {
+  .main-btn {
+    position: absolute;
+    top: 10%;
+    left: 50%;
+    -webkit-transform: translateX(-50%);
+    -ms-transform: translateX(-50%);
+    transform: translateX(-50%);
+  }
+  .main-menu {
+    position: relative;
+  }
+  .headings-row {
+    display: block;
+  }
   .header-headings, div .header-h1, div .header-p {
     text-align: center;
   }
@@ -1906,6 +1921,9 @@ small {
   }
   .feedback-form-heading {
     font-size: 1.5rem;
+  }
+  .popup-content {
+    padding: 3rem 3rem;
   }
 }
 
