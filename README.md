@@ -1,4 +1,3 @@
 # Паша Кубалов
-Сайт с моими проэктами
 
-[Вертска Макета часть 1](https://terrible59.github.io/gipsolit/ "Верстка")
+[Вертска макета "Гипсолит"](https://terrible59.github.io/gipsolit/ "Верстка")
