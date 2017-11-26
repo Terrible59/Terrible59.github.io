@@ -1806,6 +1806,8 @@ small {
 }
 
 .additional-heading {
+  margin: 0;
+  padding: 0;
   color: #fcfcfc;
   font-size: 3.4rem;
   /* Приближение из-за подстановки шрифтов */

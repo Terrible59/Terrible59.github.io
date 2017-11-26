@@ -932,17 +932,20 @@ small{
 		border-radius: 8px;
 	}
 	&-heading{
+		margin: 0;
+		padding: 0;
 		color:  #fcfcfc;
 		font-size: 3.4rem;/* Приближение из-за подстановки шрифтов */
 		font-weight: bold;
 		margin-bottom: 4rem;
-		&s{
+		
 			text-align: center;
-		}
+		
 	}
 	&-p{
 		color:  #fcfcfc;
 		font-size: 1.7rem;
 		margin-bottom: 6rem;
+		text-align: center;
 	}
 }

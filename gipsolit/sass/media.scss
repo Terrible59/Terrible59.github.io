@@ -1,4 +1,7 @@
 @media (max-width: 991px) {
+	.additional-heading{
+		font-size: 2.8rem;
+	}
 	.additional-wrap{
 		margin-bottom: 4rem;
 	}
@@ -226,6 +229,12 @@
 @media (max-width: 370px){
 	.feedback-form-button{
 		width: 12rem;
+	}
+	.additional-heading{
+		font-size: 2.5rem;
+	}
+	.additional-p{
+		font-size: 1.4rem;
 	}
 }
 
