@@ -1,4 +1,21 @@
 @media (max-width: 991px) {
+	.additional-wrap{
+		margin-bottom: 4rem;
+	}
+	.additional-btn{
+		padding: 1rem 3rem;
+		font-size: 14px;
+		font-weight: bold;
+	}
+	.additional-desc{
+		margin-bottom: 2.5rem;
+	}
+	.look-headings{
+		text-align: center;
+	}
+	.look{
+
+	}
 	.main-btn{
 		position: absolute;
 		top:10%;
@@ -181,6 +198,15 @@
 		color:  #565656;
 		font-size: 1.3rem;
 		font-family: 'Proxima Nova Rg';
+	}
+	.look{
+		background: none;
+		background-color: #efe7e8;
+	}
+	.additional-btn{
+		padding: 1rem 3rem;
+		font-size: 14px;
+		font-weight: bold;
 	}
 }
 

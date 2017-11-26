@@ -882,3 +882,67 @@ small{
 		margin-top: 4rem;
 	}
 }
+
+.look{
+	padding: 8rem 0;
+	background: url(../img/look/bg.png) center no-repeat;
+	background-size: cover;
+	background-position: -200px;
+	&-heading{
+		text-transform: uppercase;
+		color:#292929;
+		font-weight: bold;
+		font-size: 3.5rem;
+		line-height: 1.45;
+		&s{
+			padding-top: 7rem;
+		}
+	}
+	&-p{
+		color: #292929;
+		font-size: 1.8rem;
+		margin-top: 2rem;
+		&-wrap{
+			margin-top: 5rem;
+		}
+	}
+}
+
+.additional{
+	padding: 8rem;
+	background-color: #286b0a;
+	&-wrap{
+		text-align: center;
+		img{
+			width: 100%;
+			margin-bottom: 2rem;
+		}
+	}
+	&-desc{
+		color:  #fcfcfc;
+		font-weight: bold;
+		font-size: 1.8rem;
+		margin-bottom: 3.5rem;
+	}
+	&-btn{
+		@include btn;
+		padding: 1.5rem 4rem;
+		font-size: 16px;
+		font-weight: bold;
+		border-radius: 8px;
+	}
+	&-heading{
+		color:  #fcfcfc;
+		font-size: 3.4rem;/* Приближение из-за подстановки шрифтов */
+		font-weight: bold;
+		margin-bottom: 4rem;
+		&s{
+			text-align: center;
+		}
+	}
+	&-p{
+		color:  #fcfcfc;
+		font-size: 1.7rem;
+		margin-bottom: 6rem;
+	}
+}

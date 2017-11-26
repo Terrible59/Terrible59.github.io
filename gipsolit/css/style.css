@@ -1731,7 +1731,113 @@ small {
   border-bottom: transparent;
 }
 
+.look {
+  padding: 8rem 0;
+  background: url(../img/look/bg.png) center no-repeat;
+  background-size: cover;
+  background-position: -200px;
+}
+
+.look-heading {
+  text-transform: uppercase;
+  color: #292929;
+  font-weight: bold;
+  font-size: 3.5rem;
+  line-height: 1.45;
+}
+
+.look-headings {
+  padding-top: 7rem;
+}
+
+.look-p {
+  color: #292929;
+  font-size: 1.8rem;
+  margin-top: 2rem;
+}
+
+.look-p-wrap {
+  margin-top: 5rem;
+}
+
+.additional {
+  padding: 8rem;
+  background-color: #286b0a;
+}
+
+.additional-wrap {
+  text-align: center;
+}
+
+.additional-wrap img {
+  width: 100%;
+  margin-bottom: 2rem;
+}
+
+.additional-desc {
+  color: #fcfcfc;
+  font-weight: bold;
+  font-size: 1.8rem;
+  margin-bottom: 3.5rem;
+}
+
+.additional-btn {
+  background-color: #fdb403;
+  color: #fff;
+  border: none;
+  outline: none;
+  text-transform: uppercase;
+  padding: 1.5rem 4rem;
+  font-size: 16px;
+  font-weight: bold;
+  border-radius: 8px;
+}
+
+.additional-btn:focus, .additional-btn:active, .additional-btn:visited, .additional-btn:hover {
+  outline: none;
+  border: none;
+  color: #FFF;
+}
+
+.additional-btn:hover {
+  -webkit-box-shadow: 0px 8px 13px 0px rgba(0, 0, 0, 0.04);
+  box-shadow: 0px 8px 13px 0px rgba(0, 0, 0, 0.04);
+  cursor: pointer;
+}
+
+.additional-heading {
+  color: #fcfcfc;
+  font-size: 3.4rem;
+  /* Приближение из-за подстановки шрифтов */
+  font-weight: bold;
+  margin-bottom: 4rem;
+}
+
+.additional-headings {
+  text-align: center;
+}
+
+.additional-p {
+  color: #fcfcfc;
+  font-size: 1.7rem;
+  margin-bottom: 6rem;
+}
+
 @media (max-width: 991px) {
+  .additional-wrap {
+    margin-bottom: 4rem;
+  }
+  .additional-btn {
+    padding: 1rem 3rem;
+    font-size: 14px;
+    font-weight: bold;
+  }
+  .additional-desc {
+    margin-bottom: 2.5rem;
+  }
+  .look-headings {
+    text-align: center;
+  }
   .main-btn {
     position: absolute;
     top: 10%;
@@ -1911,6 +2017,15 @@ small {
     color: #565656;
     font-size: 1.3rem;
     font-family: 'Proxima Nova Rg';
+  }
+  .look {
+    background: none;
+    background-color: #efe7e8;
+  }
+  .additional-btn {
+    padding: 1rem 3rem;
+    font-size: 14px;
+    font-weight: bold;
   }
 }
 
