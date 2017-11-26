@@ -1811,9 +1811,6 @@ small {
   /* Приближение из-за подстановки шрифтов */
   font-weight: bold;
   margin-bottom: 4rem;
-}
-
-.additional-headings {
   text-align: center;
 }
 
@@ -1821,9 +1818,13 @@ small {
   color: #fcfcfc;
   font-size: 1.7rem;
   margin-bottom: 6rem;
+  text-align: center;
 }
 
 @media (max-width: 991px) {
+  .additional-heading {
+    font-size: 2.8rem;
+  }
   .additional-wrap {
     margin-bottom: 4rem;
   }
@@ -2045,6 +2046,12 @@ small {
 @media (max-width: 370px) {
   .feedback-form-button {
     width: 12rem;
+  }
+  .additional-heading {
+    font-size: 2.5rem;
+  }
+  .additional-p {
+    font-size: 1.4rem;
   }
 }
 
