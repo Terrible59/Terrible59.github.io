@@ -1,6 +1,10 @@
 @media (max-width: 991px) {
+	.footer-center{
+		text-align: center !important;
+		margin: 2rem 0;
+	}
 	.additional-heading{
-		font-size: 2.8rem;
+		font-size: 2rem;
 	}
 	.additional-wrap{
 		margin-bottom: 4rem;
@@ -8,7 +12,6 @@
 	.additional-btn{
 		padding: 1rem 3rem;
 		font-size: 14px;
-		font-weight: bold;
 	}
 	.additional-desc{
 		margin-bottom: 2.5rem;
@@ -229,12 +232,6 @@
 @media (max-width: 370px){
 	.feedback-form-button{
 		width: 12rem;
-	}
-	.additional-heading{
-		font-size: 2.5rem;
-	}
-	.additional-p{
-		font-size: 1.4rem;
 	}
 }
 

@@ -926,16 +926,15 @@ small{
 	}
 	&-btn{
 		@include btn;
-		padding: 1.5rem 4rem;
-		font-size: 16px;
-		font-weight: bold;
+		padding: 1.2rem 3rem;
+		font-size: 14px;
 		border-radius: 8px;
 	}
 	&-heading{
 		margin: 0;
 		padding: 0;
 		color:  #fcfcfc;
-		font-size: 3.4rem;/* Приближение из-за подстановки шрифтов */
+		font-size: 3rem;/* Приближение из-за подстановки шрифтов */
 		font-weight: bold;
 		margin-bottom: 4rem;
 		
@@ -944,8 +943,92 @@ small{
 	}
 	&-p{
 		color:  #fcfcfc;
-		font-size: 1.7rem;
+		font-size: 1.4rem;
 		margin-bottom: 6rem;
 		text-align: center;
+	}
+}
+
+.contacts{
+	padding: 6rem 0;
+	background:url(../img/contacts/contacts-bg.png) center;
+	&-heading{
+		font-size: 3rem;
+		font-weight: bold;
+		color:#292929;
+		margin-bottom: 5rem;
+	}
+	&-address{
+		&-p{
+			color:  #292929;
+			font-size: 1.6rem;
+			margin-bottom: 1rem;
+		}
+		color:  #292929;
+		font-size: 1.6rem;
+		margin-bottom: 2rem;
+	}
+	&-phone{
+		color:  #292929;
+		font-size: 1.6rem;
+		margin-bottom: 0.5rem;
+		margin-top: 2rem;
+		&-number{
+			color:  #292929;
+			font-size: 1.6rem;
+			margin-bottom: 4rem;
+			font-weight: bold;
+		}
+	}
+	&-email{
+		color:  #292929;
+		font-size: 1.6rem;
+		margin-bottom: 1rem;
+		span{
+			display: block;
+			color:  #292929;
+			font-size: 1.6rem;
+			margin-bottom: 4rem;
+		}
+	}
+	&-documents{
+		color:  #292929;
+		font-size: 1.6rem;
+		margin-bottom: 1rem;
+		span{
+			display: block;
+			color:  #292929;
+			font-size: 1.6rem;
+			margin-bottom: 4rem;
+		}
+	}
+}
+
+.footer{
+	padding: 3rem 0;
+	background-color: #fff;
+	&-phone-number{
+		color:  #292929;
+		font-size: 1.6rem;
+		font-weight: bold;
+	}
+	&-text{
+		span{
+			display: block;
+			color:  #292929;
+			font-size: 1.6rem;
+		}
+	}
+	&-row{
+		align-items: center;
+	}
+	&-copy{
+		font-size: 14px;	
+		margin-bottom: 0.7rem;
+		&right{
+			font-weight: bold;
+			font-size: 16px;
+			letter-spacing: 1.5px;
+		}
 	}
 }

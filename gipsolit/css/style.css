@@ -454,13 +454,13 @@ a:focus, input:focus, button:focus {
 }
 
 /*прибивание футера*/
-.footer {
-  background: #000;
-  height: 50px;
-  width: 100%;
-  position: relative;
-}
-
+/*
+.footer{
+	background:#000;
+	height: 50px;
+	width: 100%;
+	position: relative;
+}*/
 .wrapper {
   min-height: 100%;
   overflow: hidden;
@@ -1787,9 +1787,8 @@ small {
   border: none;
   outline: none;
   text-transform: uppercase;
-  padding: 1.5rem 4rem;
-  font-size: 16px;
-  font-weight: bold;
+  padding: 1.2rem 3rem;
+  font-size: 14px;
   border-radius: 8px;
 }
 
@@ -1809,7 +1808,7 @@ small {
   margin: 0;
   padding: 0;
   color: #fcfcfc;
-  font-size: 3.4rem;
+  font-size: 3rem;
   /* Приближение из-за подстановки шрифтов */
   font-weight: bold;
   margin-bottom: 4rem;
@@ -1818,14 +1817,117 @@ small {
 
 .additional-p {
   color: #fcfcfc;
-  font-size: 1.7rem;
+  font-size: 1.4rem;
   margin-bottom: 6rem;
   text-align: center;
 }
 
+.contacts {
+  padding: 6rem 0;
+  background: url(../img/contacts/contacts-bg.png) center;
+}
+
+.contacts-heading {
+  font-size: 3rem;
+  font-weight: bold;
+  color: #292929;
+  margin-bottom: 5rem;
+}
+
+.contacts-address {
+  color: #292929;
+  font-size: 1.6rem;
+  margin-bottom: 2rem;
+}
+
+.contacts-address-p {
+  color: #292929;
+  font-size: 1.6rem;
+  margin-bottom: 1rem;
+}
+
+.contacts-phone {
+  color: #292929;
+  font-size: 1.6rem;
+  margin-bottom: 0.5rem;
+  margin-top: 2rem;
+}
+
+.contacts-phone-number {
+  color: #292929;
+  font-size: 1.6rem;
+  margin-bottom: 4rem;
+  font-weight: bold;
+}
+
+.contacts-email {
+  color: #292929;
+  font-size: 1.6rem;
+  margin-bottom: 1rem;
+}
+
+.contacts-email span {
+  display: block;
+  color: #292929;
+  font-size: 1.6rem;
+  margin-bottom: 4rem;
+}
+
+.contacts-documents {
+  color: #292929;
+  font-size: 1.6rem;
+  margin-bottom: 1rem;
+}
+
+.contacts-documents span {
+  display: block;
+  color: #292929;
+  font-size: 1.6rem;
+  margin-bottom: 4rem;
+}
+
+.footer {
+  padding: 3rem 0;
+  background-color: #fff;
+}
+
+.footer-phone-number {
+  color: #292929;
+  font-size: 1.6rem;
+  font-weight: bold;
+}
+
+.footer-text span {
+  display: block;
+  color: #292929;
+  font-size: 1.6rem;
+}
+
+.footer-row {
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+.footer-copy {
+  font-size: 14px;
+  margin-bottom: 0.7rem;
+}
+
+.footer-copyright {
+  font-weight: bold;
+  font-size: 16px;
+  letter-spacing: 1.5px;
+}
+
 @media (max-width: 991px) {
+  .footer-center {
+    text-align: center !important;
+    margin: 2rem 0;
+  }
   .additional-heading {
-    font-size: 2.8rem;
+    font-size: 2rem;
   }
   .additional-wrap {
     margin-bottom: 4rem;
@@ -1833,7 +1935,6 @@ small {
   .additional-btn {
     padding: 1rem 3rem;
     font-size: 14px;
-    font-weight: bold;
   }
   .additional-desc {
     margin-bottom: 2.5rem;
@@ -2048,12 +2149,6 @@ small {
 @media (max-width: 370px) {
   .feedback-form-button {
     width: 12rem;
-  }
-  .additional-heading {
-    font-size: 2.5rem;
-  }
-  .additional-p {
-    font-size: 1.4rem;
   }
 }
 
