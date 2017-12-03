@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width">
+    <meta name="description" content="Описание">
+    <title>Родительский контроль</title>
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <link rel="stylesheet" href="css/animate.css">
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="shortcut icon" href="favicon.png" type="img/png">
+</head>
+<body>
+
+<div class="container-fluid">
+    <div class="row justify-content-between header-menu-row">
+        <div class="header">
+            <div class="col-lg-4 header-logo-col">
+                <img src="img/logo.png" alt="logo" class="header-logo-img">
+                <div class="header-logo-wrapper">
+                    <h2 class="header-logo-heading"><a href="index.html">Копейка</a></h2>
+                    <p class="header-logo-p">кошелек для всей семьи</p>
+                </div>
+            </div>
+        
+            <div class="col-lg-6 header-menu-col">
+                <ul class="header-menu">
+                    <li class="header-menu-item"><a href="parent.html">Личный кабинет</a></li>
+                    <li class="header-menu-item active"><a href="parent-control.html">Родительский контроль</a></li>
+                    <li class="header-menu-item"><a href="#">Настройки</a></li>
+                    <li class="header-menu-item"><a href="#">F.A.Q</a></li>
+                    <li class="header-menu-item"><a href="#">Помощь</a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</div>
+
+<section class="main">
+    <div class="container-fluid">
+        <div class="row justify-content-between">
+            <div class="col-lg-8">
+                <div class="main-balance">
+                    <h4 class="main-balance-h">На счету: <span>666</span> рублей</h4>
+                </div>
+            </div>
+            <div class="col-lg-3">
+                <img src="img/photo.jpg" alt="ava" class="main-avatar">
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-lg-8">
+                <div class="payment">
+                    <h3 class="main-name">Перевод</h3>
+                    <input type="text" class="main-form-input" placeholder="Сумма перевода">
+                    <button class="main-form-button">Отправить</button>
+                </div>
+            </div>
+        </div>
+        <h3 class="main-name ">Имя, Фамилия</h3>
+        <div class="row justify-content-between">
+            <div class="col-lg-8">
+                <div class="main-balance">
+                    <h4 class="main-balance-h">На счету: <span>777</span> рублей</h4>
+                </div>
+            </div>
+            <div class="col-lg-3">
+                <img src="img/2.png" alt="ava" class="main-avatar">
+            </div>
+        </div>
+        <table class="table main-table">
+    <thead>
+        <tr>
+            <th class="text-center">#</th>
+            <th>Название</th>
+            <th class="text-center">Дата</th>
+            <th class="text-right">Сумма</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td class="text-center">1</td>
+            <td>Кока колла 0,5л</td>
+            <td class="text-center">20.10.17</td>
+            <td class="text-right">100 руб.</td>
+            <td class="td-actions text-right">
+                <button type="button" rel="tooltip" title="View Profile" class="btn btn-info btn-simple btn-xs">
+                    <i class="fa fa-user"></i>
+                </button>
+                <button type="button" rel="tooltip" title="Edit Profile" class="btn btn-success btn-simple btn-xs">
+                    <i class="fa fa-edit"></i>
+                </button>
+                <button type="button" rel="tooltip" title="Remove" class="btn btn-danger btn-simple btn-xs">
+                    <i class="fa fa-times"></i>
+                </button>
+            </td>
+        </tr>
+        <tr>
+            <td class="text-center">2</td>
+            <td>Хлеб 1 шт.</td>
+            <td class="text-center">21.10.17</td>
+            <td class="text-right">200 руб.</td>
+            <td class="td-actions text-right">
+                <button type="button" rel="tooltip" title="View Profile" class="btn btn-info btn-simple btn-xs">
+                    <i class="fa fa-user"></i>
+                </button>
+                <button type="button" rel="tooltip" title="Edit Profile" class="btn btn-success btn-simple btn-xs">
+                    <i class="fa fa-edit"></i>
+                </button>
+                <button type="button" rel="tooltip" title="Remove" class="btn btn-danger btn-simple btn-xs">
+                    <i class="fa fa-times"></i>
+                </button>
+            </td>
+        </tr>
+        <tr>
+            <td class="text-center">3</td>
+            <td>Сигареты Winston</td>
+            <td class="text-center">22.10.17</td>
+            <td class="text-right">2010 руб.</td>
+            <td class="td-actions text-right">
+                <button type="button" rel="tooltip" title="View Profile" class="btn btn-info btn-simple btn-xs">
+                    <i class="fa fa-user"></i>
+                </button>
+                <button type="button" rel="tooltip" title="Edit Profile" class="btn btn-success btn-simple btn-xs">
+                    <i class="fa fa-edit"></i>
+                </button>
+                <button type="button" rel="tooltip" title="Remove" class="btn btn-danger btn-simple btn-xs">
+                    <i class="fa fa-times"></i>
+                </button>
+            </td>
+        </tr>
+      </tbody>
+    </table> 
+    <div class="row">
+      <div class="col-lg-8">
+        <div class="parent-control">
+          <h3 class="main-name">Родительский контроль</h3>
+          <div class="togglebutton">
+            <p class="parent-control-p">Включить/отключить родительский контроль</p>
+            <div class="parent-control-input">
+              <input type="checkbox" id="checked" class="cbx hidden " />
+              <label for="checked" class="lbl"></label>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div> 
+  </div>
+</section>
+
+<div class="message-wrapp">
+    <i class="material-icons">message</i>
+</div>
+
+<div class="message-popup">
+    <p class="message-popup-p"><span class="message-popup-span">&times;</span></p>
+    <div class="message-popup-send">
+        <input type="text" class="message-popup-input" placeholder="Сообщение">
+        <button class="message-popup-btn message-popup-button">Отправить</button>
+    </div>
+</div>
+
+<!----- Scripts ------>
+<script type="text/javascript" src="js/jquery-3.2.1.min.js"></script>
+<script src="js/bootstrap.min.js"></script>
+<script src="js/material.min.js"></script>
+<script src="js/script.js"></script>
+<script type="text/javascript" src="js/wow.js"></script>
+<script>
+  new WOW().init();
+</script>
+</body>
+</html>

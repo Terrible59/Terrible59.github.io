@@ -1,0 +1,114 @@
+body,html{
+	width: 100%;
+	height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+h1,h2,h3,h4,h5,h6,p{
+    margin: 0;
+    padding: 0;
+}
+
+a,input,button{
+    &:focus{
+        outline:none;
+    }
+}
+
+
+/*прибивание футера*/
+.footer{
+	background:#000;
+	height: 50px;
+	width: 100%;
+	position: relative;
+}
+
+.wrapper{
+	min-height: 100%;
+	overflow: hidden;
+	position: relative;
+}
+
+.wrapper:after{
+	content:'';
+	height: 50px;
+	display: block;
+	overflow: hidden;
+}
+
+/*прибивание футера*/
+
+
+/*стилизация списков*/
+
+li{
+	list-style:none;
+}
+
+ul{
+	padding: 0;
+	margin: 0;
+}
+/*стилизация списков*/
+
+/*контейнер*/
+.container{
+    width: 100%;
+	max-width: 960px;
+	margin: 0 auto;
+}
+/*контейнер*/
+
+
+/*стилизация меню*/
+
+.menu-list{
+    display: flex;
+    justify-content: space-around;
+    -ms-align-items: center;
+    align-items: center;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.menu-link{
+    text-decoration: none;
+}
+
+/*стилизация меню*/
+
+/*logo*/
+.logo{
+    display: inline-block;
+    vertical-align: middle;
+}
+/*logo*/
+
+/*текст*/
+.tal{
+    text-align: left;
+}
+
+.tar{
+    text-align: right;
+}
+
+.tac{
+    text-align: center;
+}
+
+.upper{
+    text-transform: uppercase;
+}
+
+.bold{
+    font-weight: bold;
+}
+/*текст*/
+
+
+
+

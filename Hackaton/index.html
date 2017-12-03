@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width">
+	<meta name="description" content="Описание">
+	<title>Копейка - система электронных переводов</title>
+	<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <link rel="stylesheet" href="css/animate.css">
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="shortcut icon" href="favicon.png" type="img/png">
+</head>
+<body>
+
+<section class="header-section">
+	<div class="container-fluid">
+		<div class="row">
+			<div class="header">
+					<div class="header-logo">
+						<img src="img/logo.png" alt="logo" class="header-logo-img">
+						<div class="header-logo-wrapper">
+							<h2 class="header-logo-heading"><a href="index.html">Копейка</a></h2>
+							<p class="header-logo-p">кошелек для всей семьи</p>
+					</div>
+				</div>
+					<div class="header-log-in-form">
+						<div class="header-log-in-wrapper">
+							<button class="header-log-in-btn">Войти</button>
+							<button class="header-register-btn" onclick="slowScroll('#register')">Регистрация</button>
+						</div>
+				</div>
+			</div>
+		</div>
+		<div class="row justify-content-around features-row">
+			<div class="col-lg-4 features-block">
+				<i class="material-icons features-icon">face</i>
+				<h3 class="features-heading">Это удобно</h3>
+				<p class="features-p">Следите за расходами детей через историю</p>
+			</div>
+			<div class="col-lg-4 features-block">
+				<i class="material-icons features-icon">fingerprint</i>
+				<h3 class="features-heading">Это безопасно</h3>
+				<p class="features-p">Доступ к родительскому контролю будет только у опекунов</p>
+			</div>
+			<div class="col-lg-4 features-block">
+				<i class="material-icons features-icon">euro_symbol</i>
+				<h3 class="features-heading">Это недорого</h3>
+				<p class="features-p">1 месяц использования - бесплатно</p>
+			</div>
+		</div>
+		<div class="arrow-wrapper">
+			<i class="material-icons arrow" onclick="slowScroll('#register')">keyboard_arrow_down</i>
+		</div>
+	</div>
+</section>
+
+<section class="register-section" id="register">
+	<div class="container-fluid">
+		<div class="row justify-content-end">
+			<div class="col-lg-5 register-form offset-l">
+				<h3 class="register-heading">Зарегистрироваться</h3>
+				<form action="#" >
+					<label for="#" class="main-form-label">Логин</label>
+					<input type="text" class="main-form-input">
+					<label for="#" class="main-form-sec-label">Имя</label>
+					<input type="password" class="main-form-input">
+					<label for="#" class="main-form-label">Фамилия</label>
+					<input type="text" class="main-form-input">
+					<label for="#" class="main-form-label">Телефон</label>
+					<input type="text" class="main-form-input">
+					<label for="#" class="main-form-label">Номер карты</label>
+					<input type="text" class="main-form-input">
+					<div class="popup-radio-wrapper">
+						<label class="popup-radio-label">
+							<input type="radio" name="optionsRadios">
+								Я родитель 
+						</label>
+						<label class="popup-radio-label">
+							<input type="radio" name="optionsRadios">
+								Я ребенок 
+						</label>
+					</div>
+					<button href="parent.html" class="main-form-button">Зарегистрироваться</button>
+				</form>
+			</div>
+		</div>
+	</div>
+</section>
+
+<div class="popup">
+	<div class="popup-content">
+		<div class="form">
+			<button class="popup-close">&times;</button>
+			<h2 class="popup-h2">Авторизоваться</h2>
+			<div class="popup-form">
+				<form action="#" >
+					<label for="#" class="main-form-label">Логин</label>
+					<input type="text" class="main-form-input">
+					<label for="#" class="main-form-sec-label">Пароль</label>
+					<input type="password" class="main-form-input">
+					<div class="popup-radio-wrapper">
+						<label class="popup-radio-label">
+							<input type="radio" name="optionsRadios">
+								Я родитель 
+						</label>
+						<label class="popup-radio-label">
+							<input type="radio" name="optionsRadios">
+								Я ребенок 
+						</label>
+					</div>
+					<button href="parent.html" class="main-form-button">Войти</button>
+				</form>
+			</div>
+		</div>
+	</div>
+</div>
+
+
+<!----- Scripts ------>
+<script type="text/javascript" src="js/jquery-3.2.1.min.js"></script>
+<script src="js/bootstrap.min.js"></script>
+<script src="js/material.min.js"></script>
+<script src="js/script.js"></script>
+<script type="text/javascript" src="js/wow.js"></script>
+<script>
+  new WOW().init();
+</script>
+</body>
+</html>
