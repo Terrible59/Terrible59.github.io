@@ -4791,9 +4791,14 @@ li.active {
   display: inline-block;
   vertical-align: middle; }
 
+.main-popup-input span {
+  color: #000; }
+
 @media (max-width: 690px) {
   .header-logo {
     display: block;
-    margin: 0 auto; }
+    margin: 0 auto;
+    width: 100%; }
   .header-log-in-form {
-    display: block; } }
+    display: block;
+    width: 100%; } }

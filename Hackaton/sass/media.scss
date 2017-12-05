@@ -2,8 +2,14 @@
 	.header-logo{
 		display: block;
 		margin: 0 auto;
+		width: 100%;
 	}
 	.header-log-in-form{
 		display: block;
+		width: 100%;
 	}
+}
+
+@media (max-width:480px){
+	
 }
