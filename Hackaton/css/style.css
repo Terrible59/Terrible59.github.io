@@ -4908,7 +4908,11 @@ li.active {
     font-size: 1.7rem; }
   .header-logo-img {
     display: none;
-    margin: 0 auto; } }
+    margin: 0 auto; }
+  .popup-content {
+    padding: 2rem 4rem; }
+  .popup-h2 {
+    font-size: 2.2rem; } }
 
 @media (max-width: 1178px) {
   .header-menu-item {
@@ -4936,9 +4940,31 @@ li.active {
     color: #333;
     outline: none; } }
 
+@media (max-width: 370px) {
+  .popup-content {
+    padding: 2rem 4rem; }
+  .popup-h2 {
+    font-size: 2.2rem; } }
+
 @media (max-width: 412px) {
   .register-heading {
     font-size: 2rem; }
   .header-logo-img {
     margin-right: 0;
-    margin: 0 auto; } }
+    margin: 0 auto; }
+  .popup-content {
+    padding: 3rem 5rem; }
+  .popup-h2 {
+    font-size: 2.4rem; } }
+
+@media (max-width: 440px) {
+  .popup-content {
+    padding: 3rem 5rem; }
+  .popup-h2 {
+    font-size: 2.5rem; } }
+
+@media (max-width: 350px) {
+  .popup-content {
+    padding: 2rem 4rem; }
+  .popup-h2 {
+    font-size: 2rem; } }
