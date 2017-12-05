@@ -333,6 +333,7 @@ html{
 	background-color: darken(#fff,10%);
 	padding: 6rem 4rem;
 	min-height:100vh;
+	min-width: 100vw;
 	&-name{
 		font-weight: bold;
 		font-family: 'Proxima Nova Rg';
