@@ -3,10 +3,17 @@ var close = $('.popup-close');
 var message = $('.message-wrapp');
 var messagePopup = $('.message-popup');
 var messageClose = $('.message-popup-span');
+var menuButton = $('.icon');
+var menu = $('.popup-menu');
+
+menuButton.on('click',function(event){
+	menu.slideToggle();
+});
 
 logButton.on('click', function(event){
 	$('.popup').fadeIn();
 });
+
 close.on('click', function(event){
 	$('.popup').fadeOut();
 });

@@ -14,24 +14,23 @@
 <body>
 
 <div class="container-fluid">
-	<div class="row justify-content-between header-menu-row">
-		<div class="header">
-			<div class="col-lg-4 header-logo-col">
+	<div class="row justify-content-between header-menu-row header">
+			<div class="col-lg-4 header-logo-col ">
 				<img src="img/logo.png" alt="logo" class="header-logo-img">
 				<div class="header-logo-wrapper">
 					<h2 class="header-logo-heading"><a href="index.html">Копейка</a></h2>
 					<p class="header-logo-p">кошелек для всей семьи</p>
-				</div>
-			</div>
-		
-			<div class="col-lg-6 header-menu-col">
+			 </div>
+      </div>
+			<div class="col-lg-6 col-lg-offset-0 header-menu-col ">
 				<ul class="header-menu">
-                     <li class="header-menu-item active"><a href="parent.html">Личный кабинет</a></li>
+          <li class="header-menu-item active"><a href="parent.html">Личный кабинет</a></li>
 					<li class="header-menu-item"><a href="parent-control.html">Родительский контроль</a></li>
 					<li class="header-menu-item"><a href="#">Настройки</a></li>
 					<li class="header-menu-item"><a href="#">F.A.Q</a></li>
 					<li class="header-menu-item"><a href="#">Помощь</a></li>
 				</ul>
+        <div class="icon">&#9776;</div>
 			</div>
 		</div>
 	</div>
@@ -41,13 +40,15 @@
 	<div class="container-fluid">
 		<h3 class="main-name">Имя, Фамилия</h3>
 		<div class="row justify-content-between">
-			<div class="col-lg-8">
+			<div class="col-md-8 col-sm-8 col-lg-8 ">
 				<div class="main-balance">
 					<h4 class="main-balance-h">На счету: <span>666</span> рублей</h4>
 				</div>
 			</div>
-			<div class="col-lg-3">
-				<img src="img/photo.jpg" alt="ava" class="main-avatar">
+			<div class="col-lg-2 col-md-3 col-sm-2 main-photo-col">
+				<div class="avatar-wrapper">
+          <img src="img/photo.jpg" alt="ava" class="main-avatar">
+        </div>
 			</div>
 		</div>
 
@@ -128,6 +129,14 @@
 		<button class="main-form-button message-popup-button">Отправить</button>
 	</div>
 </div>
+
+<ul class="popup-menu">
+  <li class="popup-menu-item active"><a href="parent.html">Личный кабинет</a></li>
+  <li class="popup-menu-item"><a href="parent-control.html">Родительский контроль</a></li>
+  <li class="popup-menu-item"><a href="#">Настройки</a></li>
+  <li class="popup-menu-item"><a href="#">F.A.Q</a></li>
+  <li class="popup-menu-item"><a href="#">Помощь</a></li>
+</ul>
 
 <!----- Scripts ------>
 <script type="text/javascript" src="js/jquery-3.2.1.min.js"></script>

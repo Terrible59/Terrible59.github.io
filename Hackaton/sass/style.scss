@@ -299,12 +299,12 @@ html{
 		&-col{
 			width: auto;
 			display: inline-block;
-		vertical-align: middle;
+			vertical-align: middle;
 		}
 		&row{
 			display: flex;
 			align-items: center;
-
+			
 		}
 		&-item{
 			font-family: 'Proxima Nova Rg';
@@ -332,6 +332,7 @@ html{
 .main{
 	background-color: darken(#fff,10%);
 	padding: 6rem 4rem;
+	min-height:100vh;
 	&-name{
 		font-weight: bold;
 		font-family: 'Proxima Nova Rg';
@@ -510,4 +511,55 @@ li.active{
 	span{
 		color:#000;
 	}
+}
+
+.icon{
+	display: none;
+	background-color: #333;
+	overflow: hidden;
+	background-color: transparent;
+	font-size: 2rem;
+	text-decoration: none !important;
+	color:#333 !important;
+	outline:none !important;
+	&:hover{
+		cursor: pointer;
+	}
+}
+
+.popup-menu{
+	display: none;
+}
+
+.popup-menu{
+		display: none;
+		position: absolute;
+		top: 9%;
+		right: 0;
+		z-index:99999999;
+		width: 100vw;
+		overflow:hidden;
+		li{
+			font-family: 'Proxima Nova Rg';
+			font-weight: bold;
+			font-size: 1.7rem;
+			transition: border 0.2s;
+			border:none;
+
+			a{
+				padding: 1rem;
+				background-color: #333;
+				display: block;
+				width: 100vw;
+				color:#fff;
+				text-align: center;
+				&:hover{
+					border-bottom:none !important;
+					text-decoration: none;
+				}
+			}
+		}
+	}
+.child-menu{
+	top:16%;
 }
