@@ -4842,13 +4842,6 @@ li.active {
         border-bottom: none !important;
         text-decoration: none; }
 
-.child-menu {
-  top: 16%; }
-
-@media (max-width: 330px) {
-  .popup-menu {
-    top: 6.5rem; } }
-
 @media (max-width: 690px) {
   .header-logo {
     display: -webkit-flex;
@@ -4948,7 +4941,9 @@ li.active {
   .popup-content {
     padding: 2rem 4rem; }
   .popup-h2 {
-    font-size: 2.2rem; } }
+    font-size: 2.2rem; }
+  .popup-menu {
+    top: 7rem; } }
 
 @media (max-width: 412px) {
   .register-heading {
