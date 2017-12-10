@@ -1,0 +1,157 @@
+html,body{
+	font-size: 12px;
+}
+
+.header{
+	position:relative;
+	height: 100vh;
+	background: url('../img/main-bg.jpg') center center no-repeat;
+}
+
+.main-shadow{
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	background-color: rgba(0,0,0,0.5);
+	z-index: 1;
+}
+
+.main-wrapper{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 100vh;
+}
+
+.main-headings{
+	position: relative;
+	z-index: 2;
+	color:#fff;
+}
+
+.main-heading{
+	text-transform: uppercase;
+	font-size: 3rem;
+	font-weight: 300;
+	text-align: center;
+	&::after{
+		content:"";
+		height: 2px;
+		width: 150px;
+		background-color:#fff;
+		display: block;
+		margin: 0 auto;
+		margin-top: 20px
+	}
+}
+
+.main-p{
+	text-align: center;
+	margin-top: 20px;
+	font-size: 2rem;
+	font-weight: 300;
+	line-height: 40px;
+	text-align: center;
+}
+
+.main-down{
+	position: absolute;
+	bottom:5%;
+	display: inline-block;
+	font-size: 1.5rem;
+	color:#fff;
+	text-decoration: none;
+	z-index: 4;
+	border: 1px solid trasparent;
+	border-radius: 50%;
+	width:50px;
+	height: 50px;
+	line-height: 50px;
+	text-align: center;
+	transition: all 0.5s;
+	&:hover,&:active,&:focus{
+		border: 1px solid #fff;
+		text-decoration: none;
+		color:#fff;
+		outline:none;
+	}
+}
+
+.main{
+	min-height: 90vh;
+	padding: 3rem 0;
+	padding-bottom: 12rem;
+}
+
+.portfolio-heading{
+	text-transform: uppercase;
+	color:  #333333;
+	font-size: 2.2em;/* Приближение из-за подстановки шрифтов */
+	font-weight: 800;
+	line-height: 40px;/* Приближение из-за подстановки шрифтов */
+	text-align: center;
+	margin-bottom: 5rem;
+}
+
+.main-images{
+	display: flex;
+	justify-content:space-between;
+	flex-wrap:no-wrap;
+	margin-top: 4rem;
+}
+
+.main-img{
+	max-width:380px;
+	width:100%;
+	display: block;
+	margin: 0 auto;
+}
+
+.main-link{
+	text-decoration: none;
+	color:#333;
+	display: block;
+	margin: 0 auto;
+}
+
+.main{
+	&-link{
+		text-align: center;
+		margin-top: 2rem;
+		font-size: 1.2rem;
+		&:hover,&:active,&:focus{
+			text-decoration: none;
+			outline:none;
+			color:darken(#333,20%);
+		}
+	}
+}
+
+.footer{
+	background-color: #333;
+	padding: 2rem 0;
+	&-heading{
+		text-align: center;
+		font-size: 1.8rem;
+		font-weight: 300;
+		color:#fff;
+	}
+	&-btn{
+		border: 1px solid #fff;
+		border-radius: 1.5rem;
+		background-color: transparent;
+		padding: 1rem 2rem;
+		color:#fff;
+		text-align: center;
+		display: block;
+		margin: 0 auto;
+		margin-top: 2rem;
+		max-width:18rem;
+		&:hover,&:focus,&:active{
+			background-color: #fff;
+			color:#333;
+			text-decoration: none;
+			outline:none;
+		}
+	}
+}
