@@ -1,0 +1,246 @@
+.header{
+    background: url('../Images/bg.png') no-repeat top / cover;
+    background-position: 0 -120px;
+    height: 100vh;
+}
+
+.main-header-sec{
+    height: 90vh;
+}
+
+.main{
+    height: 100vh;
+    background: url('../Images/iPhone%206%20(2).png') no-repeat top;
+    background-position: 0 0;
+    background-size: 48%;
+}
+
+.main-bottom{
+    height: 100vh;
+    background: url('../Images/World%20Map.png') no-repeat top;
+    background-position: 680px 80px;
+    background-size: 50%;
+}
+
+.menu-list{
+    display: flex;
+    list-style: none;
+    justify-content: center;
+    align-items: center;
+}
+
+.menu-link{
+    text-decoration: none;
+    font-family: Lato;
+    color:  #26272d;
+    font-size: 16px;/* Приближение из-за подстановки шрифтов */
+    font-weight: 400;
+    text-align: left;
+    padding-left: 20px;
+    padding-right: 20px;
+    
+}
+
+.menu-link:hover{
+    text-decoration: none;
+}
+
+.get-wrapper{
+    background: url('../Images/Apple%20Icon.png') no-repeat center left;
+    background-position: 20px 10px;
+    background-color:  #267df4;
+    width: 142px;
+    height: 42px;
+    text-align: center;
+    border-radius: 30px;
+    color:  #ffffff;
+    font-family: 'Lato';
+    display: flex;
+    padding-left: 13px;
+    justify-content: center;
+    -ms-align-items: center;
+    align-items: center;
+}
+
+.menu-wrapper{
+    padding-top: 3vh;
+}
+
+.new{
+    font-weight: 700;
+}
+
+.menu-item:nth-child(4){
+    text-transform: uppercase;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.main-h1{
+    font-family: 'Varela Round';
+    color:  #26272d;
+    font-size: 40px;/* Приближение из-за подстановки шрифтов */
+    font-weight: 400;
+    text-align: center;
+    padding-top: 30px;
+}
+
+.main-button{
+    background: url('../Images/Play.png') no-repeat center left;
+    background-position: 35px 18px;
+    margin: 30px auto;
+    text-align: center;
+    border-width: 1px;
+    border-color:  rgba(38, 39, 45, 0.1);
+    border-style: solid;
+    width: 205px;
+    height: 50px;
+    border-radius: 30px;
+    padding-top: 11px;
+}
+
+.main-span{
+    font-family: 'Lato';
+    color:  #26272d;
+    font-size: 16px;/* Приближение из-за подстановки шрифтов */
+    font-weight: 400;
+    margin: 0;
+    padding: 0;
+    padding-top: 50px;
+}
+
+.main-h-right{
+   display: inline-block;
+   width:40%;
+}
+
+.main-h-left{
+    display: inline-block;
+    width:40%;
+}
+
+.main-h-wrapper{
+    padding-top: 90px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.main-h-h2{
+    font-family: 'Lato';
+color:  #26272d;
+font-size: 26px;/* Приближение из-за подстановки шрифтов */
+font-weight: 300;
+line-height: 34px;/* Приближение из-за подстановки шрифтов */
+text-align: left;
+    padding-top: 20px;
+}
+
+.main-h-p{
+    padding-top: 20px;
+    font-family: Lato;
+color:  #8c8f94;
+font-size: 16px;/* Приближение из-за подстановки шрифтов */
+font-weight: 400;
+line-height: 26px;/* Приближение из-за подстановки шрифтов */
+text-align: left;
+}
+
+.main-hr{
+    height: 1px;
+    background-color:  rgba(38, 39, 45, 0.05);
+    width: auto;
+    margin-top: 60px;
+}
+
+.main-m-h1{
+    font-family: 'Varela Round';
+    color:  #26272d;
+    font-size: 42px;/* Приближение из-за подстановки шрифтов */
+    font-weight: 400;
+    text-align: left;
+    width: 250px;
+}
+
+.main-m-p{
+    font-family: 'Lato';
+    color:  #8c8f94;
+    font-size: 16px;/* Приближение из-за подстановки шрифтов */
+    font-weight: 400;
+    line-height: 28px;/* Приближение из-за подстановки шрифтов */
+    text-align: left;
+    width: 500px;
+    padding-top: 30px;
+}
+
+.main-wrapper{
+    margin-left: 630px;
+    padding-top: 50px;
+}
+
+.main-buttons{
+    padding-top: 30px;
+}
+
+.main-m-button{
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.main-m-button:first-child{
+    
+    background: url('../Images/Arrow%20Icon.png') no-repeat  top;
+    background-position: 158px 16px;
+    background-color:  #267df4;
+    width: 202px;
+    height: 42px;
+    border-radius: 30px;
+    font-family: Lato;
+    color:  #ffffff;
+    font-size: 16px;/* Приближение из-за подстановки шрифтов */
+    font-weight: 400;
+    text-align: left;
+    padding-right: 40px;
+}
+
+.main-m-button:last-child{
+    border-width: 1px;
+    border-color:  rgba(38, 39, 45, 0.1);
+    border-style: solid;
+    width: 142px;
+    height: 42px;
+    border-radius: 30px;
+    margin-left: 20px;
+    font-family: Lato;
+    color:  #26272d;
+    font-size: 16px;/* Приближение из-за подстановки шрифтов */
+    font-weight: 400;
+}
+
+.ml2{
+    margin-left: 50px;
+    padding-top: 60px;
+}
+
+.mb-h2{
+    font-family: Lato;
+    color:  #26272d;
+    font-size: 12px;/* Приближение из-за подстановки шрифтов */
+    font-weight: 900;
+    line-height: 22px;/* Приближение из-за подстановки шрифтов */
+    text-align: left;
+    padding-top: 20px;
+    text-transform: uppercase;
+}
+
+.i-wrapper{
+    padding-top: 30px;
+}
+
+.p-logo{
+    display: inline-block;
+}
+
+.mb-i:last-child{
+    margin-left: 30px;
+}
