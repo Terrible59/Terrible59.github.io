@@ -1,0 +1,96 @@
+/* Large devices (desktops, less than 1200px) */
+@media (max-width: 1199.98px) { 
+	
+}
+
+/* Medium devices (tablets, less than 992px) */
+@media (max-width: 991.98px) {
+	.headeer, .why-header{
+		font-size: 32px;
+	}
+	.why-header{
+		margin-bottom: 30px;
+	}
+	.reason-header{
+		font-size: 25px;
+	}
+	.reason-text{
+		margin-top: 2px;
+	}
+	.why-reason{
+		margin-top: 20px;
+	}
+	.client-img{
+		margin-top: 30px;
+	}
+	.sec-row{
+		margin-top: 0;
+	}
+	.client-header{
+		margin-bottom: 30px;
+	}
+	.popup-iframe{
+  		border: none;
+ 		height: 60vh;
+  		width: 100%;
+	}
+	.frame-c{
+ 		width: 70%;
+	}
+
+	.popup-close {
+   	 	font-size: 38px;
+    	top: -1.4rem;
+    	right: -3.0rem;
+   	}
+
+}
+
+/* Small devices (landscape phones, less than 768px) */
+@media (max-width: 767.98px) {
+	.headeer, .why-header{
+		font-size: 26px;
+	}
+	.why-header{
+		margin-bottom: 22px;
+	}
+	.reason-header{
+		font-size: 22px;
+	}
+	.client-header{
+		margin-bottom: 22px;
+	}
+	.popup-content{
+		padding: 10px;
+	}
+	.popup-post-header{
+		font-size: 14px;
+	}
+	.popup-post-text{
+		font-size: 12px;
+	}
+}
+
+/* Extra small devices (portrait phones, less than 576px) */
+@media (max-width: 575.98px) {
+	.main-menu-list{
+		display: none;
+	}
+	.main-active{
+		display: block;
+		
+	}
+	.menu-toggle{
+		display: block;
+	}
+	.popup-post-header{
+		font-size: 14px;
+	}
+	.popup-post-text{
+		font-size: 11px;
+	}
+	.popup-header{
+		font-size: 22px;
+	}
+}
+
